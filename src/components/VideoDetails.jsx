@@ -39,7 +39,7 @@ const VideoDetails = () => {
               className="react-player"
               controls
             />
-            <Typography color={"#fff"} variant={"h5"} fontWeight="bold" p={2}>
+            <Typography color={"#fff"} variant="h5" fontWeight="bold" p={2}>
               {title}
             </Typography>
             <Stack
@@ -51,7 +51,7 @@ const VideoDetails = () => {
             >
               <Link to={`/channel/${channelId}`}>
                 <Typography
-                  variant={{ sm: "subtutle1", md: "h6" }}
+                  // variant={{ sm: "subtitle1", md: "h6" }}
                   color="#fff"
                 >
                   {channelTitle}
