@@ -3,7 +3,7 @@ import React from "react";
 import { VideoCard, ChannelCard } from "./";
 
 const Videos = ({ videos, direction }) => {
-  if (!videos.lenght) return "loading";
+  if (!videos.length) return "loading";
 
   return (
     <Stack
